@@ -1,0 +1,41 @@
+ voce
+======
+
+
+Project Description
+-------------------
+
+voce is an interactive IRC robot that is meant to be helpful to the users in a
+chat room. The project aims to be a sturdy platform on which to build telephony
+switching features that interface with IRC. Specifically interfacing FreeSWITCH
+features like conference management, announcements, and call routing.
+
+
+Status
+------
+
+The project is posted here mostly for historical reasons. The code is stale and
+very infrequently updated, however it is very stable and is a great starting
+point for someone looking to develop an IRC robot, or as an example of how to
+interact with FreeSWTICH from a remote program via BSD sockets. Again, this
+project is no longer maintain as it has served its purpose as an educational
+experience and as an experiment with VoIP and SSL technologies.
+
+
+Compiling and Installation
+--------------------------
+
+The source should be able to compile on various BSDs (including OS X) or Linux
+with a simple `make` command. This will produce an executable named 'voce' which
+can be placed anyway you like and run. It does provide some help and usage info
+but not much. For a full understanding of the configuration file format, or list
+of command line switches read through the source, it is all there in multicolor.
+
+
+License
+-------
+
+The project is protected by a 3-clause BSD license, you are free to download,
+modify, and redistribute the source as long as the copyright notice at the top
+of each source file is retained. See copyright notice and license notice of each
+file for more information about the licensing of that file.
